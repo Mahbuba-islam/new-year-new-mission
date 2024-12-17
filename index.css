@@ -172,7 +172,10 @@ span{
     left: 0px;
     z-index: 3;
   
+  
 }
+
+
 
 /* .overlay { 
     position: absolute; 
@@ -206,9 +209,45 @@ span{
     z-index: 1;
 }
 
+.circle{
+   height: 403px;
+   width: 403px;
+   border: 10px solid #FF0000;
+   border-radius: 50%;
+}
+
+.ellipse-img-design{
+    position: relative;
+}
+
+.ellipse-img{
+    position: absolute;
+    top: 30px;
+    left: 7%;
+}
 
 
 
 
+.portfolio{
+    margin-top: 300px;
+    text-align: left;
+}
 
+.portfolio>h1{
+    margin: 10px 0px;
+    font-weight: 900;
+    font-size: 30px;
 
+}
+
+.portfolio>p{
+    width: 700px;
+    margin-bottom: 25px;
+}
+
+.item-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
