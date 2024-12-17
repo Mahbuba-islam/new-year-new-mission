@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    margin: 60px auto;
+    text-align: center;
+    width: 1322px;
+    height: 480px;
+  
+}
+
+main>img{
+    margin-bottom: 100px;
+}
+.celebrate{
+    position: relative;
+    margin-bottom: 90px;
+}
+/* .celebrate-container{
+    display: flex;
+    justify-content: space-between; */
+.celebrate-img{
+   position: absolute;
+   top: 50px;
+   left: 980px;
+}
+.celebrate-des{
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    width: 650px;
+    text-align: left;
+    color: white;
+   
+
+}
+
+.celebrate-des>h1{
+   font-weight: bolder;
+   font-size: 80px;
+   margin-bottom: 20px;
+}
+.celebrate-des>p{
+    margin-bottom: 50px;
+    width: 500px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.celebrate-des>button{
+    border: none;
+   background: none;
+   font-weight: 900;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: white;
+  
+}
+
+.celebration{
+    background-image: linear-gradient(to bottom, #f8dad3, white);
+    height: 300px;
+    position: relative;
+   
+  }
+
+.celebration-container{
+   position: absolute;
+   top: 80px;
+   left: 550px;
+
+}
+
+span{
+    color: #FF0000;
+    
+
+}
+.celebration-container>p{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.celebration-container>button{
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+
+.offer-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 0px;
+   
+}
+
+.offer{
+    width: 350px;
+    height: 250;
+    padding: 10px 10px;
+    margin-top: 50px;
+}
+
+.offer>span{
+    color: #FF0000;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+
+.offer>h1{
+  margin: 15px 0px;
+}
+.offer>p{
+    margin-bottom: 20px;
+}
+.offer>h4{
+    color: #FF0000;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.discount-img{
+    position: relative;
+}
+.discount-img-1{
+    position: absolute;
+    top: 60px;
+   left: -170px;
+}
+
+.discount-des>p{
+    width: 800px;
+    margin: 20px auto;
+
+}
+.discount-des>h1{
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.discount-container{
+   
+}
+
+
+.discount{
+    display: flex;
+    justify-content: space-between;
+   
+   
+   
+}
+
+
+
+.gift-img-group{
+    position: relative;
+}
+
+.gift-img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+  
+}
+
+/* .overlay { 
+    position: absolute; 
+    top: 0; left: 100px; 
+    width: 500px; height: 100%; 
+    background-color: rgba(35, 7, 160, 0.5);  
+ z-index: 2;
+
+} */
+
+/* .vector-box { 
+    position: absolute;
+    top: 320px;
+    left: 230px;
+    z-index: 2;
+    width: 240px;
+     height: 120px; 
+     border-radius:80%;
+     background-color: rgb(2, 29, 38); 
+     transform: rotate(0deg) scale(1.2); 
+     margin: 50px; 
+    } */
+
+
+.empty-box{
+    width: 1322px;
+    height: 229px;
+    background-color: #FF0000;
+    position: absolute;
+    top: 400px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
