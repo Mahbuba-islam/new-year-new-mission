@@ -3,16 +3,29 @@
     padding: 0px;
 }
 
-.main{
-    margin: 60px auto;
+
+main{
+    margin: 50px auto;
     text-align: center;
     width: 1322px;
     height: 480px;
   
 }
 
+
+
 main>img{
     margin-bottom: 100px;
+}
+
+.banner-2>h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: #FF0000;
+    margin: 10px 0px;
+}
+.banner-2>h3{
+    margin-top: 10px;
 }
 .celebrate{
     position: relative;
@@ -81,7 +94,7 @@ span{
     margin: 10px 0px;
     font-size: 20px;
 }
-.celebration-container>button{
+.primary-button{
     background-color: #FF0000;
     color: white;
     border: none;
@@ -251,3 +264,93 @@ span{
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
+
+
+.newsletter-container{
+    margin-top: 100px ;
+    background-color: #fae2dc;
+    padding: 70px 0px;
+    border-radius: 5px;
+    
+
+
+}
+
+.newsletter-container>h1{
+    font-weight: 900;
+    font-size: 40px;
+
+}
+
+.newsletter-container>p{
+    margin: 15px auto;
+    width: 350px;
+}
+
+.newsletter-container>input{
+    width: 300px;
+   padding: 6px;
+   border-radius: 7px;
+   border: none;
+   
+  
+}
+
+footer{
+    background-color: black;
+    color: white;
+    max-width: 1600px;
+    margin-top: 4300px;
+    padding: 35px 0px;
+    
+  
+}
+
+.connect{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+
+hr{
+   width: 1200px;
+   margin: 20px auto;
+   border: 0.2px solid #333333e2;
+}
+
+.social-media{
+    text-align: center;
+    padding: 15px 0px;
+    
+}
+
+.social-media>img{
+  height: 30px;
+  width: 30px;
+}
+
+.unscribe{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.unscribe>button{
+   color: white;
+   background: none;
+   border: none;
+}
+
+.phone-number{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   margin-bottom: 5px;
+}
+
+.website{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
