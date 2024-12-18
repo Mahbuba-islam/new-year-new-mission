@@ -17,7 +17,9 @@ main{
 main>img{
     margin-bottom: 100px;
 }
-
+.banner-2{
+    margin-bottom: 70px;
+}
 .banner-2>h1{
     font-weight: 900;
     font-size: 50px;
@@ -300,8 +302,9 @@ footer{
     background-color: black;
     color: white;
     max-width: 1600px;
-    margin-top: 4300px;
+    /* margin-top: 4300px; */
     padding: 35px 0px;
+    position: relative;  left: 0; top: 5050px; width: 100%;
     
   
 }
